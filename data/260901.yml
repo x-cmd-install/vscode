@@ -1,0 +1,102 @@
+about:
+  description: Visual Studio Code
+  license: MIT
+  homepage: https://code.visualstudio.com
+  head: eb84d81
+  archived: false
+  latestVersion: 1.135.0
+  collectedAt: 2026-09-01T05:43:14Z
+timeline:
+  created: 2015-09-03
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-26
+popularity:
+  star: 190260
+  watcher: 3536
+  fork: 41922
+  release: 235
+  contributor: 2557
+  pullRequest: 12269
+  issue: 252263
+language:
+  TypeScript: 159063151
+  CSS: 2681687
+  JavaScript: 1025939
+  Rust: 916439
+  HTML: 721277
+  Inno Setup: 336154
+  Jupyter Notebook: 232766
+  Scilab: 202892
+  Shell: 167976
+  C++: 126673
+  PowerShell: 79166
+  Batchfile: 33012
+  Python: 31909
+  Tree-sitter Query: 14260
+  C#: 9850
+  SCSS: 6732
+  Ruby: 5554
+  Java: 5338
+  Groovy: 3928
+  Cuda: 3634
+  Go: 2501
+  Makefile: 2307
+  Perl: 1922
+  TeX: 1602
+  Objective-C: 1387
+  Objective-C++: 1387
+  Clojure: 1206
+  Handlebars: 1064
+  Mermaid: 1053
+  Less: 1029
+  PHP: 998
+  Dockerfile: 960
+  Julia: 940
+  Visual Basic .NET: 893
+  C: 818
+  Raku: 761
+  Pug: 654
+  F#: 634
+  CoffeeScript: 590
+  R: 362
+  Roff: 351
+  ShaderLab: 330
+  Dart: 324
+  Swift: 284
+  Lua: 252
+  HLSL: 184
+  Hack: 16
+totalLine: 165693146
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 5
+    mergedPR: 1642
+    openPR: 467
+    closedIssue: 1276
+    openIssue: 1385
+    commit: 2568
+  last90d:
+    since: 2026-06-03
+    release: 19
+    mergedPR: 4602
+    openPR: 859
+    closedIssue: 4194
+    openIssue: 3270
+    commit: 8226
+  last180d:
+    since: 2026-03-05
+    release: 38
+    mergedPR: 9392
+    openPR: 1676
+    closedIssue: 13594
+    openIssue: 6640
+    commit: 17493
+  last360d:
+    since: 2025-09-06
+    release: 58
+    mergedPR: 16027
+    openPR: 2095
+    closedIssue: 34444
+    openIssue: 10289
+    commit: 31256
