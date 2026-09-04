@@ -7,19 +7,19 @@ about:
   head: 167a0e8
   archived: false
   latestVersion: 1.136.1
-  collectedAt: 2026-09-04T20:18:15Z
+  collectedAt: 2026-09-04T20:24:18Z
 timeline:
   created: 2015-09-03
   lastCommit: 2026-09-04
   lastRelease: 2026-09-03
 popularity:
-  star: 190858
+  star: 190856
   watcher: 3536
-  fork: 41970
+  fork: 41971
   release: 237
   contributor: 2551
   pullRequest: 65506
-  issue: 252708
+  issue: 252710
 language:
   TypeScript: 161822924
   CSS: 2750052
@@ -76,7 +76,7 @@ recent:
     mergedPR: 1715
     openPR: 520
     closedIssue: 1257
-    openIssue: 1479
+    openIssue: 1481
     commit: 3052
   last60d:
     since: 2026-07-06
@@ -84,7 +84,7 @@ recent:
     mergedPR: 3292
     openPR: 766
     closedIssue: 2714
-    openIssue: 2508
+    openIssue: 2510
     commit: 5941
   last90d:
     since: 2026-06-06
@@ -92,7 +92,7 @@ recent:
     mergedPR: 4750
     openPR: 920
     closedIssue: 4256
-    openIssue: 3402
+    openIssue: 3404
     commit: 8710
   last180d:
     since: 2026-03-08
@@ -100,7 +100,7 @@ recent:
     mergedPR: 9607
     openPR: 1737
     closedIssue: 13579
-    openIssue: 6753
+    openIssue: 6755
     commit: 17977
   last360d:
     since: 2025-09-09
@@ -108,7 +108,7 @@ recent:
     mergedPR: 16242
     openPR: 2160
     closedIssue: 34473
-    openIssue: 10433
+    openIssue: 10435
     commit: 31740
   last720d:
     since: 2024-09-14
@@ -116,18 +116,18 @@ recent:
     mergedPR: 25625
     openPR: 2337
     closedIssue: 56847
-    openIssue: 12836
+    openIssue: 12838
     commit: 39568
 total:
   release: 237
   mergedPR: 53097
   openPR: 2520
   closedIssue: 234678
-  openIssue: 18030
+  openIssue: 18032
   commit: 164671
 ---
 path: /home/runner/.x-repo/github.com/microsoft/vscode
-collectedAt: 2026-09-04T20:19:39Z
+collectedAt: 2026-09-04T20:25:23Z
 loc:
   TypeScript:
     code: 3075749
