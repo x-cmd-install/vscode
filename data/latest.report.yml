@@ -2,22 +2,22 @@ about:
   description: "Visual Studio Code"
   license: MIT
   homepage: https://code.visualstudio.com
-  head: a47dab6
+  head: abb1677
   archived: false
   latestVersion: "1.136.1"
-  collectedAt: 2026-09-08T01:50:31Z
+  collectedAt: 2026-09-08T04:24:30Z
 timeline:
   created: 2015-09-03
   lastCommit: 2026-09-08
   lastRelease: 2026-09-03
 popularity:
-  star: 191457
+  star: 191466
   watcher: 3540
-  fork: 42042
+  fork: 42045
   release: 237
   contributor: 2555
   pullRequest: 65676
-  issue: 252923
+  issue: 252927
 language:
   TypeScript: 162662255
   CSS: 2763189
@@ -71,61 +71,61 @@ recent:
   last30d:
     since: 2026-08-09
     release: 6
-    mergedPR: 1588
-    openPR: 554
+    mergedPR: 1589
+    openPR: 553
     closedIssue: 1197
-    openIssue: 1471
-    commit: 2285
+    openIssue: 1475
+    commit: 2286
   last60d:
     since: 2026-07-10
     release: 12
-    mergedPR: 3093
-    openPR: 788
+    mergedPR: 3094
+    openPR: 787
     closedIssue: 2597
-    openIssue: 2472
-    commit: 5459
+    openIssue: 2476
+    commit: 5460
   last90d:
     since: 2026-06-10
     release: 20
-    mergedPR: 4656
-    openPR: 946
-    closedIssue: 4175
-    openIssue: 3382
-    commit: 8283
+    mergedPR: 4657
+    openPR: 945
+    closedIssue: 4176
+    openIssue: 3385
+    commit: 8284
   last180d:
     since: 2026-03-12
     release: 38
-    mergedPR: 9499
-    openPR: 1762
-    closedIssue: 12966
-    openIssue: 6680
-    commit: 17494
+    mergedPR: 9500
+    openPR: 1760
+    closedIssue: 12968
+    openIssue: 6682
+    commit: 17495
   last360d:
     since: 2025-09-13
     release: 59
-    mergedPR: 16247
-    openPR: 2202
-    closedIssue: 34174
-    openIssue: 10478
-    commit: 31696
+    mergedPR: 16248
+    openPR: 2200
+    closedIssue: 34176
+    openIssue: 10480
+    commit: 31697
   last720d:
     since: 2024-09-18
     release: 96
-    mergedPR: 25615
-    openPR: 2382
-    closedIssue: 56783
-    openIssue: 12900
-    commit: 39556
+    mergedPR: 25616
+    openPR: 2380
+    closedIssue: 56785
+    openIssue: 12902
+    commit: 39557
 total:
   release: 237
-  mergedPR: 53194
-  openPR: 2567
-  closedIssue: 234809
-  openIssue: 18114
-  commit: 164764
+  mergedPR: 53195
+  openPR: 2565
+  closedIssue: 234811
+  openIssue: 18116
+  commit: 164765
 ---
 path: /home/runner/.x-repo/github.com/microsoft/vscode
-collectedAt: 2026-09-08T01:53:16Z
+collectedAt: 2026-09-08T04:26:50Z
 loc:
   TypeScript:
     code: 3092540
