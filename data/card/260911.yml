@@ -2,12 +2,12 @@ about:
   description: "Visual Studio Code"
   license: MIT
   homepage: https://code.visualstudio.com
-  head: 7b7e49c
+  head: 186b59b
   archived: false
   latestVersion: "1.137.0"
   latestRelease: "1.137.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:27:53Z
+  collectedAt: 2026-09-11T20:30:17Z
 timeline:
   created: 2015-09-03
   lastCommit: 2026-09-11
@@ -15,16 +15,16 @@ timeline:
   lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 191980
-  watcher: 3525
-  fork: 42091
+  star: 192014
+  watcher: 3526
+  fork: 42107
   release: 239
   contributor: 2556
-  pullRequest: 65990
-  issue: 253213
+  pullRequest: 66079
+  issue: 253394
 language:
-  TypeScript: 165683462
-  CSS: 2807346
+  TypeScript: 166211880
+  CSS: 2809901
   JavaScript: 1026850
   Rust: 923462
   HTML: 694755
@@ -70,82 +70,82 @@ language:
   Lua: 252
   HLSL: 184
   Hack: 16
-totalBytes: 172416751
+totalBytes: 172947724
 recent:
   last30d:
     since: 2026-08-12
     release: 7
-    mergedPR: 1574
-    openPR: 548
-    closedIssue: 1148
-    openIssue: 1475
-    commit: 2807
+    mergedPR: 1628
+    openPR: 563
+    closedIssue: 1203
+    openIssue: 1601
+    commit: 2961
   last60d:
     since: 2026-07-13
     release: 14
-    mergedPR: 3251
-    openPR: 797
-    closedIssue: 2633
-    openIssue: 2526
-    commit: 5981
+    mergedPR: 3305
+    openPR: 810
+    closedIssue: 2688
+    openIssue: 2652
+    commit: 6135
   last90d:
     since: 2026-06-13
     release: 18
-    mergedPR: 4746
-    openPR: 959
-    closedIssue: 4214
-    openIssue: 3439
-    commit: 8805
+    mergedPR: 4800
+    openPR: 972
+    closedIssue: 4270
+    openIssue: 3564
+    commit: 8959
   last180d:
     since: 2026-03-15
     release: 40
-    mergedPR: 9681
-    openPR: 1772
-    closedIssue: 12721
-    openIssue: 6729
-    commit: 18016
+    mergedPR: 9735
+    openPR: 1784
+    closedIssue: 12785
+    openIssue: 6846
+    commit: 18170
   last360d:
     since: 2025-09-16
     release: 61
-    mergedPR: 16467
-    openPR: 2222
-    closedIssue: 33900
-    openIssue: 10592
-    commit: 32218
+    mergedPR: 16521
+    openPR: 2234
+    closedIssue: 33963
+    openIssue: 10710
+    commit: 32372
   last720d:
     since: 2024-09-21
     release: 98
-    mergedPR: 25781
-    openPR: 2401
-    closedIssue: 56806
-    openIssue: 13017
-    commit: 39762
+    mergedPR: 25835
+    openPR: 2413
+    closedIssue: 56869
+    openIssue: 13135
+    commit: 39862
 total:
   release: 239
-  mergedPR: 53443
-  openPR: 2586
-  closedIssue: 234970
-  openIssue: 18243
-  commit: 165116
+  mergedPR: 53497
+  openPR: 2598
+  closedIssue: 235038
+  openIssue: 18356
+  commit: 165216
 ---
 path: /home/runner/.x-repo/github.com/microsoft/vscode
-collectedAt: 2026-09-11T04:30:31Z
+collectedAt: 2026-09-11T20:34:23Z
 loc:
   TypeScript:
-    code: 3150841
-    comments: 393635
-    blanks: 475032
-    files: 13039
+    code: 3161051
+    comments: 393746
+    blanks: 475768
+    files: 13064
   Json:
-    code: 923088
+    code: 923269
     comments: 0
     blanks: 59
-    files: 1331
+    files: 1332
   Css:
-    code: 70505
-    comments: 6747
-    blanks: 13846
-    files: 489
+    code: 70556
+    comments: 6753
+    blanks: 13854
+    files: 490
   Tsx:
     code: 53451
     comments: 3855
@@ -423,8 +423,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 45512
-    blanks: 9257
+    comments: 45550
+    blanks: 9276
     files: 244
   Text:
     code: 0
@@ -432,10 +432,10 @@ loc:
     blanks: 6611
     files: 202
 total:
-  code: 4326143
-  comments: 600616
-  blanks: 521240
-  files: 17089
+  code: 4336585
+  comments: 600771
+  blanks: 522003
+  files: 17116
 ---
 date: "2022-08-15"
 repo:
