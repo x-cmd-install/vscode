@@ -632,4 +632,3 @@ checks:
     details:
       - 'Info: Dependabot detected'
 ---
-{"id":405666847,"author":{"login":"alexr00","id":38270282,"node_id":"MDQ6VXNlcjM4MjcwMjgy","gravatar_id":"","type":"User","user_view_type":"public","site_admin":true},"node_id":"RE_kwDOAn8RLM4YLfwf","tag_name":"1.141.0","target_commitish":"main","name":"1.141.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-06T08:15:52Z","updated_at":"2026-10-07T11:01:16Z","published_at":"2026-10-07T11:01:16Z","assets":[],"body":"https://code.visualstudio.com/updates/v1_141","reactions":{"total_count":57,"+1":18,"-1":0,"laugh":9,"hooray":7,"confused":0,"heart":9,"rocket":8,"eyes":6}}
