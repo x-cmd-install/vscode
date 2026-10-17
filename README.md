@@ -14,15 +14,15 @@ x install vscode
 
 ## Code insight
 
-Total: **5,006,372** lines of code across **17395** files in the top 5 languages.
+Total: **5,051,349** lines of code across **17503** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 3,790,299 | 414,594 | 520,153 | 14515 |
-| Json | 931,759 | 0 | 59 | 1351 |
-| Css | 77,713 | 6,859 | 15,267 | 517 |
-| Tsx | 55,395 | 3,901 | 6,262 | 271 |
-| Yaml | 44,204 | 686 | 1,462 | 741 |
+| TypeScript | 3,831,634 | 418,177 | 523,269 | 14615 |
+| Json | 934,300 | 0 | 59 | 1351 |
+| Css | 78,142 | 6,898 | 15,345 | 517 |
+| Tsx | 55,297 | 3,897 | 6,253 | 270 |
+| Yaml | 44,489 | 691 | 1,462 | 750 |
 
 ## OpenSSF Scorecard
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.141.2` (2026-10-14)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-10-17
 
 ## Popularity
 
-- **Stars**: 193,666 · **Forks**: 45,624 · **Open issues**: 256,317 · **Contributors**: 2,586
+- **Stars**: 193,759 · **Forks**: 45,739 · **Open issues**: 256,452 · **Contributors**: 2,586
 
 ## Totals (cumulative)
 
-- **Releases**: 247 · **Merged PRs**: 55647 · **Open PRs**: 2885 · **Closed issues**: 237413 · **Open issues**: 18904 · **Commits**: 167921
+- **Releases**: 247 · **Merged PRs**: 55781 · **Open PRs**: 2902 · **Closed issues**: 237514 · **Open issues**: 18938 · **Commits**: 168076
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 8 | 1889 | 510 | 1228 | 1472 | 3503 |
-| last60d | 2026-08-17 | 14 | 3495 | 884 | 2646 | 2734 | 6540 |
-| 90d | 2026-07-18 | 19 | 5182 | 1088 | 4327 | 3625 | 9828 |
-| last180d | 2026-04-19 | 42 | 9888 | 1680 | 10161 | 6486 | 18064 |
-| 360d | 2025-10-21 | 64 | 17754 | 2488 | 32614 | 11060 | 34424 |
-| last720d | 2024-10-26 | 100 | 27074 | 2701 | 57535 | 13611 | 41436 |
+| 30d | 2026-09-17 | 7 | 1970 | 514 | 1263 | 1488 | 3753 |
+| last60d | 2026-08-18 | 14 | 3558 | 894 | 2672 | 2746 | 6790 |
+| 90d | 2026-07-19 | 19 | 5307 | 1105 | 4380 | 3653 | 10078 |
+| last180d | 2026-04-20 | 42 | 9941 | 1694 | 10130 | 6481 | 18314 |
+| 360d | 2025-10-22 | 64 | 17835 | 2505 | 32575 | 11086 | 34674 |
+| last720d | 2024-10-27 | 100 | 27203 | 2718 | 57606 | 13644 | 41585 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for vscode lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T04:24:50Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T04:14:35Z._
