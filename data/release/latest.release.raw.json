@@ -43,14 +43,14 @@
   "body": "https://code.visualstudio.com/updates/v1_142",
   "reactions": {
     "url": "https://api.github.com/repos/microsoft/vscode/releases/413117125/reactions",
-    "total_count": 42,
-    "+1": 17,
+    "total_count": 50,
+    "+1": 20,
     "-1": 0,
-    "laugh": 4,
-    "hooray": 6,
+    "laugh": 5,
+    "hooray": 7,
     "confused": 0,
-    "heart": 6,
-    "rocket": 4,
-    "eyes": 5
+    "heart": 7,
+    "rocket": 5,
+    "eyes": 6
   }
 }
