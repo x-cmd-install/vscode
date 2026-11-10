@@ -1,32 +1,3 @@
-- repo: npackd_stable64
-  srcname: vs-code64
-  binname: vs-code64
-  visiblename: Visual Studio Code 64 Bit
-  version: 1.84.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-- repo: npackd_stable64
-  srcname: vs-code64
-  binname: vs-code64
-  visiblename: Visual Studio Code 64 Bit
-  version: 1.145.2
-  origversion: null
-  status: newest
-  categories:
-    - Development
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: code
-  binname: code
-  visiblename: code
-  version: 1.138.0
-  origversion: 1.138.0-1
-  status: outdated
-  summary: The Open Source build of Visual Studio Code (vscode) editor
-  licenses:
-    - MIT
 - repo: aerynos
   srcname: vscode-bin
   visiblename: vscode-bin
@@ -51,14 +22,21 @@
 - repo: arch
   subrepo: extra
   srcname: vscode-languageservers
-  binname: vscode-css-languageserver
-  visiblename: vscode-css-languageserver
+  binname: vscode-json-languageserver
+  visiblename: vscode-json-languageserver
   version: 1.136.0
   origversion: 1.136.0-1
   status: outdated
-  summary: CSS/LESS/SCSS language server
+  summary: JSON language server
   licenses:
     - MIT
+- repo: homebrew_casks
+  srcname: visual-studio-code
+  visiblename: Microsoft Visual Studio Code
+  version: 1.145.2
+  origversion: null
+  status: newest
+  summary: Open-source code editor
 - repo: arch
   subrepo: extra
   srcname: vscode-languageservers
@@ -73,12 +51,12 @@
 - repo: arch
   subrepo: extra
   srcname: vscode-languageservers
-  binname: vscode-json-languageserver
-  visiblename: vscode-json-languageserver
+  binname: vscode-css-languageserver
+  visiblename: vscode-css-languageserver
   version: 1.136.0
   origversion: 1.136.0-1
   status: outdated
-  summary: JSON language server
+  summary: CSS/LESS/SCSS language server
   licenses:
     - MIT
 - repo: arch
@@ -104,30 +82,6 @@
   licenses:
     - MIT
 - repo: aur
-  srcname: visual-studio-code-bin
-  binname: visual-studio-code-bin
-  visiblename: visual-studio-code-bin
-  version: 1.145.2
-  origversion: 1.145.2-1
-  status: newest
-  summary: 'Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)'
-  maintainers:
-    - dcelasun@aur
-  licenses:
-    - 'custom: commercial'
-- repo: aur
-  srcname: visual-studio-code-insiders-bin
-  binname: visual-studio-code-insiders-bin
-  visiblename: visual-studio-code-insiders-bin
-  version: "1793993931"
-  origversion: 1793993931-1
-  status: incorrect
-  summary: 'Visual Studio Code Insiders (vscode): Editor for building and debugging modern web and cloud applications (official binary version)'
-  maintainers:
-    - dcelasun@aur
-  licenses:
-    - 'custom: commercial'
-- repo: aur
   srcname: code-git
   binname: code-git
   visiblename: code-git
@@ -149,6 +103,45 @@
   summary: Code editing. Redefined.
   maintainers:
     - xenfo@aur
+  licenses:
+    - 'custom: commercial'
+- repo: aur
+  srcname: visual-studio-code-bin
+  binname: visual-studio-code-bin
+  visiblename: visual-studio-code-bin
+  version: 1.145.2
+  origversion: 1.145.2-1
+  status: newest
+  summary: 'Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)'
+  maintainers:
+    - dcelasun@aur
+  licenses:
+    - 'custom: commercial'
+- repo: nix_stable_25_05
+  srcname: vscode-fhs
+  visiblename: code
+  version: 1.105.0
+  origversion: null
+  status: outdated
+  summary: Wrapped variant of vscode which launches in a FHS compatible environment. Should allow for easy usage of extensions without nix-specific modifications.
+  maintainers:
+    - edmund.wu@protonmail.com
+    - nix@hilhorst.be
+    - rjl931189261@126.com
+    - masumrezarock100@gmail.com
+    - jean-francois.labonte@brightonlabs.ai
+  licenses:
+    - Unfree
+- repo: aur
+  srcname: visual-studio-code-insiders-bin
+  binname: visual-studio-code-insiders-bin
+  visiblename: visual-studio-code-insiders-bin
+  version: "1794202141"
+  origversion: 1794202141-1
+  status: incorrect
+  summary: 'Visual Studio Code Insiders (vscode): Editor for building and debugging modern web and cloud applications (official binary version)'
+  maintainers:
+    - dcelasun@aur
   licenses:
     - 'custom: commercial'
 - repo: artix
@@ -174,6 +167,27 @@
   licenses:
     - MIT
 - repo: chocolatey
+  binname: vscode.install
+  visiblename: Visual Studio Code (Install)
+  version: 1.144.0
+  origversion: null
+  status: legacy
+  summary: Visual Studio Code
+- repo: chocolatey
+  binname: vscode
+  visiblename: Visual Studio Code
+  version: 1.144.0
+  origversion: null
+  status: legacy
+  summary: Visual Studio Code
+- repo: chocolatey
+  binname: vscode.portable
+  visiblename: Visual Studio Code (Portable)
+  version: 1.74.3
+  origversion: null
+  status: outdated
+  summary: Visual Studio Code
+- repo: chocolatey
   binname: VisualStudioCode
   visiblename: '[Deprecated] Visual Studio Code'
   version: 1.23.1.20180730
@@ -194,27 +208,6 @@
   origversion: null
   status: outdated
   summary: Visual Studio Code Insiders
-- repo: chocolatey
-  binname: vscode
-  visiblename: Visual Studio Code
-  version: 1.144.0
-  origversion: null
-  status: legacy
-  summary: Visual Studio Code
-- repo: chocolatey
-  binname: vscode.install
-  visiblename: Visual Studio Code (Install)
-  version: 1.144.0
-  origversion: null
-  status: legacy
-  summary: Visual Studio Code
-- repo: chocolatey
-  binname: vscode.portable
-  visiblename: Visual Studio Code (Portable)
-  version: 1.74.3
-  origversion: null
-  status: outdated
-  summary: Visual Studio Code
 - repo: exherbo
   subrepo: cogitri
   srcname: app-editors/vscode-bin
@@ -301,13 +294,6 @@
     - W3C
   categories:
     - app-editors
-- repo: homebrew_casks
-  srcname: visual-studio-code
-  visiblename: Microsoft Visual Studio Code
-  version: 1.145.2
-  origversion: null
-  status: newest
-  summary: Open-source code editor
 - repo: homebrew_casks
   srcname: visual-studio-code@insiders
   visiblename: Microsoft Visual Studio Code Insiders
@@ -453,20 +439,19 @@
     - W3C
   categories:
     - app-editors
-- repo: nix_stable_25_11
-  srcname: vscode-fhs
-  visiblename: code
-  version: 1.106.2
+- repo: nix_stable_25_05
+  srcname: vscode-with-extensions
+  visiblename: vscode-with-extensions
+  version: 1.105.0
   origversion: null
   status: outdated
-  summary: Wrapped variant of vscode which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
+  summary: Code editor developed by Microsoft
   maintainers:
     - edmund.wu@protonmail.com
     - nix@hilhorst.be
     - rjl931189261@126.com
     - masumrezarock100@gmail.com
     - jean-francois.labonte@brightonlabs.ai
-    - git@wetrustinprize.com
   licenses:
     - Unfree
 - repo: liguros_develop
@@ -502,17 +487,6 @@
     - app-editors
 - repo: manjaro_stable
   subrepo: extra
-  srcname: code
-  binname: code
-  visiblename: code
-  version: 1.138.0
-  origversion: 1.138.0-1
-  status: outdated
-  summary: The Open Source build of Visual Studio Code (vscode) editor
-  licenses:
-    - MIT
-- repo: manjaro_stable
-  subrepo: extra
   srcname: vscode-languageservers
   binname: vscode-html-languageserver
   visiblename: vscode-html-languageserver
@@ -544,7 +518,7 @@
   summary: CSS/LESS/SCSS language server
   licenses:
     - MIT
-- repo: manjaro_testing
+- repo: manjaro_stable
   subrepo: extra
   srcname: code
   binname: code
@@ -558,23 +532,23 @@
 - repo: manjaro_testing
   subrepo: extra
   srcname: vscode-languageservers
-  binname: vscode-html-languageserver
-  visiblename: vscode-html-languageserver
-  version: 1.136.0
-  origversion: 1.136.0-1
-  status: outdated
-  summary: HTML language server
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: vscode-languageservers
   binname: vscode-css-languageserver
   visiblename: vscode-css-languageserver
   version: 1.136.0
   origversion: 1.136.0-1
   status: outdated
   summary: CSS/LESS/SCSS language server
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: vscode-languageservers
+  binname: vscode-html-languageserver
+  visiblename: vscode-html-languageserver
+  version: 1.136.0
+  origversion: 1.136.0-1
+  status: outdated
+  summary: HTML language server
   licenses:
     - MIT
 - repo: manjaro_testing
@@ -588,6 +562,17 @@
   summary: JSON language server
   licenses:
     - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: code
+  binname: code
+  visiblename: code
+  version: 1.138.0
+  origversion: 1.138.0-1
+  status: outdated
+  summary: The Open Source build of Visual Studio Code (vscode) editor
+  licenses:
+    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: vscode-languageservers
@@ -597,6 +582,17 @@
   origversion: 1.136.0-1
   status: outdated
   summary: CSS/LESS/SCSS language server
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: vscode-languageservers
+  binname: vscode-html-languageserver
+  visiblename: vscode-html-languageserver
+  version: 1.136.0
+  origversion: 1.136.0-1
+  status: outdated
+  summary: HTML language server
   licenses:
     - MIT
 - repo: manjaro_unstable
@@ -612,13 +608,13 @@
     - MIT
 - repo: manjaro_unstable
   subrepo: extra
-  srcname: vscode-languageservers
-  binname: vscode-html-languageserver
-  visiblename: vscode-html-languageserver
-  version: 1.136.0
-  origversion: 1.136.0-1
+  srcname: code
+  binname: code
+  visiblename: code
+  version: 1.138.0
+  origversion: 1.138.0-1
   status: outdated
-  summary: HTML language server
+  summary: The Open Source build of Visual Studio Code (vscode) editor
   licenses:
     - MIT
 - repo: nix_stable_24_05
@@ -695,36 +691,6 @@
   licenses:
     - Unfree
 - repo: nix_stable_25_05
-  srcname: vscode-fhs
-  visiblename: code
-  version: 1.105.0
-  origversion: null
-  status: outdated
-  summary: Wrapped variant of vscode which launches in a FHS compatible environment. Should allow for easy usage of extensions without nix-specific modifications.
-  maintainers:
-    - edmund.wu@protonmail.com
-    - nix@hilhorst.be
-    - rjl931189261@126.com
-    - masumrezarock100@gmail.com
-    - jean-francois.labonte@brightonlabs.ai
-  licenses:
-    - Unfree
-- repo: nix_stable_25_05
-  srcname: vscode-with-extensions
-  visiblename: vscode-with-extensions
-  version: 1.105.0
-  origversion: null
-  status: outdated
-  summary: Code editor developed by Microsoft
-  maintainers:
-    - edmund.wu@protonmail.com
-    - nix@hilhorst.be
-    - rjl931189261@126.com
-    - masumrezarock100@gmail.com
-    - jean-francois.labonte@brightonlabs.ai
-  licenses:
-    - Unfree
-- repo: nix_stable_25_05
   srcname: code
   visiblename: code
   version: 0.2.188
@@ -753,84 +719,49 @@
   licenses:
     - Unfree
 - repo: nix_stable_25_11
-  srcname: vscode-with-extensions
-  visiblename: vscode-with-extensions
-  version: 1.106.2
-  origversion: null
-  status: outdated
-  summary: Code editor developed by Microsoft
-  maintainers:
-    - edmund.wu@protonmail.com
-    - nix@hilhorst.be
-    - rjl931189261@126.com
-    - masumrezarock100@gmail.com
-    - jean-francois.labonte@brightonlabs.ai
-    - git@wetrustinprize.com
-  licenses:
-    - Unfree
-- repo: nix_stable_25_11
-  srcname: code
-  visiblename: code
-  version: 0.2.188
-  origversion: null
-  status: legacy
-  summary: Fast, effective, mind-blowing, coding CLI
-  maintainers:
-    - prc.zhao@outlook.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_26_05
-  srcname: vscode
-  visiblename: vscode
-  version: 1.144.0
-  origversion: null
-  status: outdated
-  summary: Code editor developed by Microsoft
-  maintainers:
-    - edmund.wu@protonmail.com
-    - rjl931189261@126.com
-    - masumrezarock100@gmail.com
-    - jean-francois.labonte@brightonlabs.ai
-    - git@wetrustinprize.com
-    - oenu@github
-    - brandon@emergence.ltd
-  licenses:
-    - Unfree
-- repo: nix_stable_26_05
   srcname: vscode-fhs
-  visiblename: vscode
-  version: 1.144.0
+  visiblename: code
+  version: 1.106.2
   origversion: null
   status: outdated
   summary: Wrapped variant of vscode which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
   maintainers:
     - edmund.wu@protonmail.com
+    - nix@hilhorst.be
     - rjl931189261@126.com
     - masumrezarock100@gmail.com
     - jean-francois.labonte@brightonlabs.ai
     - git@wetrustinprize.com
-    - oenu@github
-    - brandon@emergence.ltd
   licenses:
     - Unfree
-- repo: nix_stable_26_05
+- repo: nix_stable_25_11
   srcname: vscode-with-extensions
-  visiblename: vscode
-  version: 1.144.0
+  visiblename: vscode-with-extensions
+  version: 1.106.2
   origversion: null
   status: outdated
   summary: Code editor developed by Microsoft
   maintainers:
     - edmund.wu@protonmail.com
+    - nix@hilhorst.be
     - rjl931189261@126.com
     - masumrezarock100@gmail.com
     - jean-francois.labonte@brightonlabs.ai
     - git@wetrustinprize.com
-    - oenu@github
-    - brandon@emergence.ltd
   licenses:
     - Unfree
+- repo: nix_stable_25_11
+  srcname: code
+  visiblename: code
+  version: 0.2.188
+  origversion: null
+  status: legacy
+  summary: Fast, effective, mind-blowing, coding CLI
+  maintainers:
+    - prc.zhao@outlook.com
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: nix_stable_26_05
   srcname: code
   visiblename: code
@@ -843,18 +774,57 @@
   licenses:
     - Apache-2.0
     - MIT
-- repo: nix_unstable
-  srcname: code
-  visiblename: code
-  version: 0.6.196
+- repo: nix_stable_26_05
+  srcname: vscode
+  visiblename: vscode
+  version: 1.144.0
   origversion: null
-  status: legacy
-  summary: Fast, effective, mind-blowing, coding CLI
+  status: outdated
+  summary: Code editor developed by Microsoft
   maintainers:
-    - prc.zhao@outlook.com
+    - edmund.wu@protonmail.com
+    - rjl931189261@126.com
+    - masumrezarock100@gmail.com
+    - jean-francois.labonte@brightonlabs.ai
+    - git@wetrustinprize.com
+    - oenu@github
+    - brandon@emergence.ltd
   licenses:
-    - Apache-2.0
-    - MIT
+    - Unfree
+- repo: nix_stable_26_05
+  srcname: vscode-fhs
+  visiblename: vscode
+  version: 1.144.0
+  origversion: null
+  status: outdated
+  summary: Wrapped variant of vscode which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
+  maintainers:
+    - edmund.wu@protonmail.com
+    - rjl931189261@126.com
+    - masumrezarock100@gmail.com
+    - jean-francois.labonte@brightonlabs.ai
+    - git@wetrustinprize.com
+    - oenu@github
+    - brandon@emergence.ltd
+  licenses:
+    - Unfree
+- repo: nix_stable_26_05
+  srcname: vscode-with-extensions
+  visiblename: vscode
+  version: 1.144.0
+  origversion: null
+  status: outdated
+  summary: Code editor developed by Microsoft
+  maintainers:
+    - edmund.wu@protonmail.com
+    - rjl931189261@126.com
+    - masumrezarock100@gmail.com
+    - jean-francois.labonte@brightonlabs.ai
+    - git@wetrustinprize.com
+    - oenu@github
+    - brandon@emergence.ltd
+  licenses:
+    - Unfree
 - repo: nix_unstable
   srcname: vscode
   visiblename: vscode
@@ -906,6 +876,18 @@
     - brandon@emergence.ltd
   licenses:
     - Unfree
+- repo: nix_unstable
+  srcname: code
+  visiblename: code
+  version: 0.6.196
+  origversion: null
+  status: legacy
+  summary: Fast, effective, mind-blowing, coding CLI
+  maintainers:
+    - prc.zhao@outlook.com
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: npackd_stable
   srcname: vs-code
   binname: vs-code
@@ -978,13 +960,31 @@
   status: legacy
   categories:
     - Development
+- repo: npackd_stable64
+  srcname: vs-code64
+  binname: vs-code64
+  visiblename: Visual Studio Code 64 Bit
+  version: 1.84.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+- repo: npackd_stable64
+  srcname: vs-code64
+  binname: vs-code64
+  visiblename: Visual Studio Code 64 Bit
+  version: 1.145.2
+  origversion: null
+  status: newest
+  categories:
+    - Development
 - repo: pacstall
   srcname: vscode-deb
   binname: vscode-deb
   visiblename: vscode-deb
-  version: 1.145.0
-  origversion: 1.145.0-1
-  status: outdated
+  version: 1.145.2
+  origversion: 1.145.2-1
+  status: newest
   summary: lightweight but powerful source code editor
   maintainers:
     - niontrix@mailbox.org
@@ -1012,6 +1012,17 @@
 - repo: parabola
   subrepo: extra
   srcname: vscode-languageservers
+  binname: vscode-html-languageserver
+  visiblename: vscode-html-languageserver
+  version: 1.136.0
+  origversion: 1.136.0-1
+  status: outdated
+  summary: HTML language server
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: vscode-languageservers
   binname: vscode-json-languageserver
   visiblename: vscode-json-languageserver
   version: 1.136.0
@@ -1029,17 +1040,6 @@
   origversion: 1.136.0-1
   status: outdated
   summary: CSS/LESS/SCSS language server
-  licenses:
-    - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: vscode-languageservers
-  binname: vscode-html-languageserver
-  visiblename: vscode-html-languageserver
-  version: 1.136.0
-  origversion: 1.136.0-1
-  status: outdated
-  summary: HTML language server
   licenses:
     - MIT
 - repo: parrot
@@ -1126,7 +1126,7 @@
   subrepo: versions
   binname: vscode-insiders
   visiblename: vscode-insiders
-  version: 1.146.0-1793984813164
+  version: 1.146.0-1794200786358
   origversion: null
   status: untrusted
   licenses:
