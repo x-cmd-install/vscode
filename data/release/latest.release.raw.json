@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/microsoft/vscode/releases/449777665",
-  "assets_url": "https://api.github.com/repos/microsoft/vscode/releases/449777665/assets",
-  "upload_url": "https://uploads.github.com/repos/microsoft/vscode/releases/449777665/assets{?name,label}",
-  "html_url": "https://github.com/microsoft/vscode/releases/tag/1.147.0",
-  "id": 449777665,
+  "url": "https://api.github.com/repos/microsoft/vscode/releases/457908058",
+  "assets_url": "https://api.github.com/repos/microsoft/vscode/releases/457908058/assets",
+  "upload_url": "https://uploads.github.com/repos/microsoft/vscode/releases/457908058/assets{?name,label}",
+  "html_url": "https://github.com/microsoft/vscode/releases/tag/1.148.0",
+  "id": 457908058,
   "author": {
     "login": "federicobrancasi",
     "id": 75954805,
@@ -25,32 +25,32 @@
     "user_view_type": "public",
     "site_admin": true
   },
-  "node_id": "RE_kwDOAn8RLM4azxAB",
-  "tag_name": "1.147.0",
+  "node_id": "RE_kwDOAn8RLM4bSx9a",
+  "tag_name": "1.148.0",
   "target_commitish": "main",
-  "name": "1.147.0",
+  "name": "1.148.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-17T02:46:11Z",
-  "updated_at": "2026-11-18T09:45:23Z",
-  "published_at": "2026-11-18T09:45:23Z",
+  "created_at": "2026-11-24T10:26:34Z",
+  "updated_at": "2026-11-25T09:44:02Z",
+  "published_at": "2026-11-25T09:44:02Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/microsoft/vscode/tarball/1.147.0",
-  "zipball_url": "https://api.github.com/repos/microsoft/vscode/zipball/1.147.0",
-  "body": "https://code.visualstudio.com/updates/v1_147",
+  "tarball_url": "https://api.github.com/repos/microsoft/vscode/tarball/1.148.0",
+  "zipball_url": "https://api.github.com/repos/microsoft/vscode/zipball/1.148.0",
+  "body": "https://code.visualstudio.com/updates/v1_148",
   "reactions": {
-    "url": "https://api.github.com/repos/microsoft/vscode/releases/449777665/reactions",
-    "total_count": 61,
-    "+1": 24,
+    "url": "https://api.github.com/repos/microsoft/vscode/releases/457908058/reactions",
+    "total_count": 54,
+    "+1": 17,
     "-1": 0,
     "laugh": 5,
-    "hooray": 10,
+    "hooray": 9,
     "confused": 0,
-    "heart": 10,
-    "rocket": 7,
-    "eyes": 5
+    "heart": 9,
+    "rocket": 8,
+    "eyes": 6
   }
 }
