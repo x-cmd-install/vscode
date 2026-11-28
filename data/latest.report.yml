@@ -2,31 +2,31 @@ about:
   description: "Visual Studio Code"
   license: MIT
   homepage: https://code.visualstudio.com
-  head: b0c9385
+  head: 2627b28
   archived: false
   latestVersion: "1.148.0"
   latestRelease: "1.148.0"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:11:00Z
+  collectedAt: 2026-11-28T07:33:30Z
 timeline:
   created: 2015-09-03
-  lastCommit: 2026-11-27
+  lastCommit: 2026-11-28
   lastVersion: 2026-11-25
   lastRelease: 2026-11-25
   lastPrerelease: 
 popularity:
-  star: 195849
-  watcher: 3606
-  fork: 43873
+  star: 195710
+  watcher: 3602
+  fork: 44071
   release: 257
   contributor: 2639
-  pullRequest: 73872
-  issue: 260027
+  pullRequest: 73992
+  issue: 260098
 language:
-  TypeScript: 246205171
-  CSS: 3643658
+  TypeScript: 248338203
+  CSS: 3676927
   Rust: 1658893
-  JavaScript: 1151269
+  JavaScript: 1151410
   HTML: 709458
   Inno Setup: 384690
   Shell: 222351
@@ -70,86 +70,86 @@ language:
   Lua: 252
   HLSL: 184
   Hack: 16
-totalBytes: 254742939
+totalBytes: 256909381
 recent:
   last30d:
-    since: 2026-10-28
-    release: 8
-    mergedPR: 2319
-    openPR: 608
-    closedIssue: 1069
-    openIssue: 1423
-    commit: 5221
+    since: 2026-10-29
+    release: 7
+    mergedPR: 2284
+    openPR: 622
+    closedIssue: 1074
+    openIssue: 1415
+    commit: 5381
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 15
-    mergedPR: 4784
-    openPR: 964
-    closedIssue: 2758
-    openIssue: 2683
-    commit: 10249
+    mergedPR: 4778
+    openPR: 980
+    closedIssue: 2745
+    openIssue: 2676
+    commit: 10409
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 22
-    mergedPR: 6505
-    openPR: 1273
-    closedIssue: 4389
-    openIssue: 3749
-    commit: 13850
+    mergedPR: 6572
+    openPR: 1292
+    closedIssue: 4403
+    openIssue: 3758
+    commit: 14010
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 41
-    mergedPR: 11272
-    openPR: 1820
-    closedIssue: 9699
-    openIssue: 6020
-    commit: 22426
+    mergedPR: 11293
+    openPR: 1836
+    closedIssue: 9624
+    openIssue: 5997
+    commit: 22586
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 70
-    mergedPR: 19803
-    openPR: 2797
-    closedIssue: 30746
-    openIssue: 10698
-    commit: 39447
+    mergedPR: 19819
+    openPR: 2824
+    closedIssue: 30627
+    openIssue: 10682
+    commit: 39607
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 100
-    mergedPR: 29742
-    openPR: 3041
-    closedIssue: 59418
-    openIssue: 13444
-    commit: 44836
+    mergedPR: 29819
+    openPR: 3069
+    closedIssue: 59458
+    openIssue: 13460
+    commit: 44913
 total:
   release: 257
-  mergedPR: 59337
-  openPR: 3212
-  closedIssue: 241376
-  openIssue: 18651
-  commit: 172735
+  mergedPR: 59418
+  openPR: 3240
+  closedIssue: 241432
+  openIssue: 18666
+  commit: 172816
 ---
 path: /home/runner/.x-repo/github.com/microsoft/vscode
-collectedAt: 2026-11-27T08:14:03Z
+collectedAt: 2026-11-28T07:36:31Z
 loc:
   TypeScript:
-    code: 4485325
-    comments: 463844
-    blanks: 573673
-    files: 16078
+    code: 4515386
+    comments: 467516
+    blanks: 576410
+    files: 16160
   Json:
-    code: 685214
+    code: 685267
     comments: 0
     blanks: 49
     files: 1071
   Css:
-    code: 86935
-    comments: 7941
-    blanks: 17211
-    files: 579
+    code: 87537
+    comments: 8025
+    blanks: 17346
+    files: 582
   Yaml:
-    code: 74133
-    comments: 1270
-    blanks: 4714
+    code: 74289
+    comments: 1304
+    blanks: 4720
     files: 799
   Tsx:
     code: 52498
@@ -162,7 +162,7 @@ loc:
     blanks: 4942
     files: 123
   JavaScript:
-    code: 42498
+    code: 42501
     comments: 3220
     blanks: 1638
     files: 120
@@ -418,8 +418,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 58819
-    blanks: 11485
+    comments: 59052
+    blanks: 11506
     files: 263
   Text:
     code: 0
@@ -427,10 +427,10 @@ loc:
     blanks: 6611
     files: 204
 total:
-  code: 5506656
-  comments: 687122
-  blanks: 630195
-  files: 20148
+  code: 5537531
+  comments: 691145
+  blanks: 633094
+  files: 20233
 ---
 date: "2022-08-15"
 repo:
@@ -627,4 +627,4 @@ checks:
     details:
       - 'Info: Dependabot detected'
 ---
-{"id":457908058,"author":{"login":"federicobrancasi","id":75954805,"node_id":"MDQ6VXNlcjc1OTU0ODA1","gravatar_id":"","type":"User","user_view_type":"public","site_admin":true},"node_id":"RE_kwDOAn8RLM4bSx9a","tag_name":"1.148.0","target_commitish":"main","name":"1.148.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-24T10:26:34Z","updated_at":"2026-11-25T09:44:02Z","published_at":"2026-11-25T09:44:02Z","assets":[],"body":"https://code.visualstudio.com/updates/v1_148","reactions":{"total_count":59,"+1":22,"-1":0,"laugh":5,"hooray":9,"confused":0,"heart":9,"rocket":8,"eyes":6}}
+{"id":457908058,"author":{"login":"federicobrancasi","id":75954805,"node_id":"MDQ6VXNlcjc1OTU0ODA1","gravatar_id":"","type":"User","user_view_type":"public","site_admin":true},"node_id":"RE_kwDOAn8RLM4bSx9a","tag_name":"1.148.0","target_commitish":"main","name":"1.148.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-24T10:26:34Z","updated_at":"2026-11-25T09:44:02Z","published_at":"2026-11-25T09:44:02Z","assets":[],"body":"https://code.visualstudio.com/updates/v1_148","reactions":{"total_count":62,"+1":25,"-1":0,"laugh":5,"hooray":9,"confused":0,"heart":9,"rocket":8,"eyes":6}}
